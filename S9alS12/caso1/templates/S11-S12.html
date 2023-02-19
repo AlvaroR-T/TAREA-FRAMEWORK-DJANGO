@@ -1,0 +1,168 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}" rel=stylesheet/>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio con while</title>
+
+
+
+
+
+</head>
+<body>
+
+  <center><h1>Página Web con Django usando el lenguaje de programación Python</h1></center>
+  <hr class="new1">
+  <img src="{%static 'pictures/fiis.jpg' %}" alt="fiis" height="120" flex:1; object-fit: contain;>
+  <br>
+   <img src="{%static 'pictures/paisaje.gif' %}" alt="paisaje"  align="right">
+
+ <h1>
+ Ejercicios resueltos de programación usando Django de la semana 9 al 12
+ </h1>
+ <br>
+ <h2>Ejercicios de la semana 11 </h2>
+ 
+ <h3>caso 1: Se pedirá al programa ejecutar la altura que requiere formar una pirámide con distintos bloques que proporcione el usuario</h3>
+ <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+ 
+ <h5> Resultado: {{respuesta1}} </h5>
+
+  <img src="{%static 'pictures/ejer1.png' %}">
+ 
+ <hr class="new1">
+
+ <h3>caso 2: Se pedirá leer la palabra correspondiente en este caso "Mesa", y nombrar solo las consonantes</h3>
+ 
+ <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+ 
+ <h5> Resultado: </h5>
+   <h5>{% for i in lyrics %}
+   <div class="row">
+     <li>{{ i }}</li> <br>
+   </div>
+   {% endfor %}</h5>
+
+   <img src="{%static 'pictures/ejer2.png' %}">
+  
+   <hr class="new1">
+
+  <h3>caso 3: Se pedirá crear un programa, el cual pregunte el puntaje obtenido en el examen de admisión y determinar si ingresó o no ingresó</h3>
+   
+  <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+     
+  <h5> Resultado: {{respuesta3}} </h5>
+
+  <img src="{%static 'pictures/ejer3.png' %}">
+  
+  <hr class="new1">
+
+  <h3>caso 4: Una máquina que contiene sensores de calor, identifican en que momento en específico debe detenerse la máquina con una cierta temperatura entre 3 y 12, 
+    y por último ejecutarlo en una lista</h3>
+   
+  <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+     
+  <h5> Resultado: {{lista}}  </h5>
+  <h5>{% for i in lista %}
+  <div class="row">
+    <li>{{ i }}</li> <br>
+  </div>
+  {% endfor %}</h5>
+
+  <img src="{%static 'pictures/ejer4.png' %}">
+
+  <hr class="new1">
+
+  <h3>caso 5: Con respecto a una lista que se muestre en pantalla, sumar todos los números que lo componen</h3>
+   
+  <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+     
+  <h5> Resultado: {{suma}}  </h5>
+
+  <img src="{%static 'pictures/ejer5.png' %}">
+
+  <br>
+  <hr class="new1">
+
+  <h2>Ejercicios de la semana 12 (Haciendo uso del Do while)</h2>
+ 
+ <h3>caso 1: Se pedirá al programa que realize las primeras 10 multiplicaciones del número 6</h3>
+ <p> Descripción: Con el ejercicio vamos a usar el uso del do while </p>
+ 
+ <h5> Resultado: </h5>
+ <h5>{% for i in les %}
+  <div class="row">
+    <li>{{ i }}</li> <br>
+  </div>
+  {% endfor %}</h5>
+
+  <img src="{%static 'pictures/ejer6.png' %}">
+
+  <hr class="new1">
+
+<h3>caso 2: Se pedirá al programa que realize los 12 primeros múltiplos del número 8</h3>
+ <p> Descripción: Con el ejercicio vamos a usar el uso del do while </p>
+ 
+ <h5> Resultado: </h5>
+ <h5>{% for i in resp7 %}
+  <div class="row">
+    <li>{{ i }}</li> <br>
+  </div>
+  {% endfor %}</h5>
+
+  <img src="{%static 'pictures/ejer7.png' %}">
+
+  <hr class="new1">
+
+  <h3>caso 3: Indicar la cantidad de número impares pertenecientes al rango asignado por defecto</h3>
+   
+  <p> Descripción: Con el ejercicio vamos a usar el uso del while </p>
+     
+  <h5> Resultado: {{respuesta8}}  </h5>
+
+  <img src="{%static 'pictures/ejer8.png' %}">
+
+  <hr class="new1">
+ 
+  <h3>caso 4: Con respecto a números random, agregar estos números a una lista, y si genera el número 8, se detiene el programa</h3>
+ <p> Descripción: Con el ejercicio vamos a usar el uso del do while </p>
+
+ <hr class="new1">
+
+ <h5> Resultado: </h5>
+ {% for i in respuesta_9 %}
+ <h5><div class="row">
+    <li>{{ i }}</li> <br>
+  </div>
+  {% endfor %}</h5>
+
+  <img src="{%static 'pictures/ejer9.png' %}">
+
+  <hr class="new1">
+  
+  <h3>caso 5: Teniendo una temperatura como referencia, estimar la temperatura máxima que debe alcanzar y cuando sucede emitir "El agua está hirviendo"</h3>
+ <p> Descripción: Con el ejercicio vamos a usar el uso del do while </p>
+ 
+ <h5> Resultado: </h5>
+ <h5>{% for i in temperatura %}
+  <div class="row">
+    <li>{{ i }}</li> <br>
+  </div>
+  {% endfor %}</h5>
+
+  <img src="{%static 'pictures/ejer10.png' %}">
+
+
+
+
+</body>
+</html>

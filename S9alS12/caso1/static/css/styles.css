@@ -1,0 +1,42 @@
+
+body{
+  
+-webkit-text-stroke: 0.5px rgb(238, 15, 15);
+    font-family: 'Lobster'; color: rgb(46, 142, 187);
+    font-family: 'Lobster', cursive;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 150px;
+    margin-left: 50px;
+  background: url("/static/pictures/atardecer.jpg") 50% 0 no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Lobster Two', cursive;
+}
+h1 {
+  color: #eecbf3; 
+}
+p {
+  color: #ec9c40; 
+}
+h3 {
+ color: #2c9ce7; 
+}
+h6 {
+ color: #34b149; 
+}
+h2 {
+ color: #e45c1c; 
+}
+h5 {
+ color: #15e727; 
+}
+h4 {
+ color: #86d2f0; 
+}
+
+hr.new1 {border-top: 2px dotted rgb(212, 38, 15);
+ color: #281ae7; 
+}
